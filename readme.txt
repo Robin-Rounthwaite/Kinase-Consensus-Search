@@ -22,13 +22,15 @@ https://www.yeastgenome.org/cache/fungi/YGR140W.html
 How it works: This program scrapes conservation data and protein sequence from an url linking to the Saccharomyces Genome Database's fungal alignment tool. It then finds and marks Aurora B Kinase consensus sequences within the sequence, and assembles an html document with all the relevant information. 
 
 Potential Future Goals:
-1) Improvement of kinase consensus ranking so that the conservation of the serine/threonine is especially taken into account.
+1) Improvement of kinase consensus ranking so that the conservation of the serine/threonine 
+   is given priority when calculating consensus rank.
 2)	Increase the scale of searches so that the user can search for multiple genes at once.
 3)	Allow multiple ways to search: either copy-pasting direct urls (as in present functionality) or by protein name.
 4)	*Prioritized* list of kinase consensus data at the top of the output page.
-5)	Cleaner interface for data analysis and use. (make the kinase consensus sites more visible). 
+5)	Cleaner interface for data analysis and use. (make the kinase consensus sites more visible).
 6)	Allow user to specify kinase consensus pattern regex.
 7)	Allow the user to specify the file name.
+8) Fix html table formatting so that it is preserved when sent as an email attachment.
 
 *** If you have any advice on how to improve the functionality of this program,
 please let me know! I want to make it as effective a tool as possible. ***
